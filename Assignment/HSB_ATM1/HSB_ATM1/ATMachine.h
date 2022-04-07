@@ -27,7 +27,7 @@ class ATMachine {
         void depositMoney();               // 계좌 입금
     
         //추가 기능2                            //계좌 출금
-        void widrawMoney();
+        void withdrawMoney();
 };
 
 #endif

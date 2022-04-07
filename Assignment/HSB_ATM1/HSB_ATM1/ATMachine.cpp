@@ -60,6 +60,7 @@ void ATMachine::checkMoney(){
     int id = 0;
     string password = "";
     int nBalance = 0;
+    bool check = false;
     
     cout << "계좌번호 입력 :\t";
     cin >> id;
@@ -68,13 +69,15 @@ void ATMachine::checkMoney(){
     cout << endl;
     
     for(int i = 0; i < nMaxAccountNum; i++){
-        if((nBalance = pAcctArray[i].check(id, password)) == AUTHENTIFICATION_FAIL){
-            cout << "계좌 인증에 실패하였습니다." << endl;
-            break;
-        }else if(nBalance >= 0){
+        if((nBalance = pAcctArray[i].check(id, password)) != AUTHENTIFICATION_FAIL){
             cout << "현재 잔액 : " << nBalance << endl;
+            check = true;
             break;
         }
+    }
+    
+    if(!check){
+        cout << "계좌 인증에 실패하였습니다." << endl;
     }
 }
 
@@ -116,12 +119,13 @@ void ATMachine::depositMoney(){
 }
 
 // 4. 계좌 출금
-void ATMachine::widrawMoney(){
+void ATMachine::withdrawMoney(){
     cout << "------ 출금 ------" << endl;
     int id = 0;
     string password = "";
     int money = -1;
     int nBalance = 100;
+    bool check = false;
     
     cout << "계좌번호 입력 :\t";
     cin >> id;
@@ -139,22 +143,21 @@ void ATMachine::widrawMoney(){
     }
     cout << endl;
     
-    
     for(int i = 0; i < nMaxAccountNum; i++){
-        nBalance = pAcctArray[i].widraw(id, password, money);
-        if(nBalance == AUTHENTIFICATION_FAIL){
-            cout << "계좌 인증에 실패하였습니다." << endl;
-            break;
-        }else if(nBalance == -2){
-            cout << "잔액이 부족합니다." << endl;
-            break;
-        }else if(nBalance >= 0){
-            cout << "현재 잔액 : " << nBalance << "\n출금 완료\n" << endl;
+        if((nBalance = pAcctArray[i].withdraw(id, password, money)) != AUTHENTIFICATION_FAIL){
+            if(nBalance >= 0){
+                cout << "현재 잔액 : " << nBalance << "\n출금 완료\n" << endl;
+            }else {
+                cout << "잔액이 부족합니다." << endl;
+            }
+            check = true;
             break;
         }
     }
     
-    
+    if(!check){
+        cout << "계좌 인증에 실패하였습니다." << endl;
+    }
 }
 
 // 6. 계좌 해지
@@ -162,6 +165,7 @@ void ATMachine::closeAccount(){
     cout << "------ 해지 ------" << endl;
     int id = 0;
     string password = "";
+    bool check = false;
 
     int nBalance = 0;
     
@@ -172,17 +176,20 @@ void ATMachine::closeAccount(){
     cout << endl;
     
     for(int i = 0; i < nMaxAccountNum; i++){
-        nBalance = pAcctArray[i].check(id, password);
-        if(nBalance == 0){
+        
+        if((nBalance = pAcctArray[i].check(id, password)) == 0){
             pAcctArray[i].close();
             cout << id << " 계좌가 해지되었습니다. 감사합니다." << endl;
+            check = true;
             break;
         }else if(nBalance > 0){
             cout << id << "번 계좌를 해지할 수 없습니다. 잔액 : " << nBalance << endl;
-            break;
-        }else if(nBalance == -1){
-            cout << "계좌 인증에 실패하였습니다." << endl;
+            check = true;
             break;
         }
+    }
+    
+    if(!check){
+        cout << "계좌 인증에 실패하였습니다." << endl;
     }
 }

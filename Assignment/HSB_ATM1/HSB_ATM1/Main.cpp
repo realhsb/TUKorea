@@ -28,7 +28,7 @@ int main(){
                 atm.closeAccount();
                 break;
             case 4 :
-                atm.widrawMoney();
+                atm.withdrawMoney();
                 break;
             case 9 :
                 cout << "안녕히 가세요." << endl;

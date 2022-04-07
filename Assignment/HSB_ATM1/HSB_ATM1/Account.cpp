@@ -49,7 +49,7 @@ int Account::deposit(int id, string password, int money){
     }
 }
 
-int Account::widraw(int id, string password, int money) {
+int Account::withdraw(int id, string password, int money) {
     if(authenticate(id, password)){
         if(nBalance >= money){
             nBalance -= money;

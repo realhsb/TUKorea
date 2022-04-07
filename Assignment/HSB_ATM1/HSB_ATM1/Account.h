@@ -30,7 +30,7 @@ class Account {
         int deposit(int id, string password, int money);
     
         //추가 가능 2
-        int widraw(int id, string password, int money);
+        int withdraw(int id, string password, int money);
 };
 
 #endif
