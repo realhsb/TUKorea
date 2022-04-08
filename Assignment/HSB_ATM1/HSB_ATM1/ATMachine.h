@@ -16,7 +16,7 @@ class ATMachine {
 
     public :
         ATMachine (int size, int balance, string password);
-        //~ATMachine();
+        ~ATMachine();
 
         void displayMenu();                 //ATM
         void createAccount();               //계좌 개설

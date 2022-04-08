@@ -13,6 +13,10 @@ ATMachine::ATMachine(int size, int balance, string password){
     this->strManagerPassword = password;
 }
 
+ATMachine::~ATMachine(){
+    
+}
+
 void ATMachine::displayMenu(){
     cout<<"----------------------\n-\tTUKOREA BANK\t-\n----------------------"<<endl;
     cout<<"1. 계좌 개설\n2. 계좌 조회\n3. 계좌 입금\n4. 계좌 출금\n6. 계좌 해지\n9. 업무 종료\n";
