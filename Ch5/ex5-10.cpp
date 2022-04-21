@@ -9,6 +9,7 @@ class Person{                           //Person 클래스 선언
     public :
         Person(int id, char* name);                 //생성자
         /* 컴파일러에 의해 디폴트 복사 생성자 삽입 (Person::Person(Person& p)*/
+        Person::Person(Person& person);
         ~Person();                                          //소멸자
         void changeName(char* name);
         void show() {cout << id << ',' << name << endl;}
@@ -19,6 +20,11 @@ Person::Person(int id, char* name){     //생성자
     int len = strlen(name);                     //name의 문자 개수
     this->name = new char[len+1];       //name 문자열 공간 할당
     strcpy(this->name, name);               //name에 문자열 복사
+}
+
+Person::Person(Person& person){
+    this->id = person.id;
+    this->name = person.name;
 }
 
 Person::~Person(){          //소멸자, name 메모리 반환
