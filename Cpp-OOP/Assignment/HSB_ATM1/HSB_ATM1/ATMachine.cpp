@@ -294,6 +294,7 @@ void ATMachine::closeAccount(){
 void ATMachine::managerMode(){
     cout << "------ 관리 ------" << endl;
     string password = "";
+    cout << "관리자 비밀번호 입력 : ";
     cin >> password;
     if(isManager(password)){
         cout << "관리자입니다." << endl;

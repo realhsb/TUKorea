@@ -22,6 +22,9 @@ int Statistics::average(Account * pArray, int size){
             sum += pArray[i].getBalance();
         }
     }
+    if(count <= 0){
+        return 0;
+    }
     return sum / count;
 }
 
