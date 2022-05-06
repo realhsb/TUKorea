@@ -1,6 +1,7 @@
 #ifndef ATMACHINE_H
 #define ATMACHINE_H
 #include "Account.h"
+#include "Statistics.h"
 
 using std::string;
 
@@ -13,6 +14,8 @@ class ATMachine {
         int nMaxAccountNum;              //동적 생성된 고객계좌 배열 크기
         int currentAccountNum;           //개설된 고객 계좌 수
         string strManagerPassword;      //관리자 비밀번호
+    bool isManager(string password);    // 매니저 암호 확인
+    void displayReport();               // 통계 화면 처리
 
     public :
         ATMachine (int size, int balance, string password);
@@ -28,6 +31,8 @@ class ATMachine {
     
         //추가 기능2                            //계좌 출금
         void withdrawMoney();
+        void transfer();    // 계좌 이체
+        void managerMode();     // 고객 관리
 };
 
 #endif

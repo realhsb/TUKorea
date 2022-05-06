@@ -30,6 +30,12 @@ int main(){
             case 4 :
                 atm.withdrawMoney();
                 break;
+            case 5 :
+                atm.transfer();
+                break;
+            case 7 :
+                atm.managerMode();
+                break;
             case 9 :
                 cout << "안녕히 가세요." << endl;
                 return 0;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41B1E1302824FAF300CCD9BE /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B1E12E2824FAF300CCD9BE /* Statistics.cpp */; };
 		41B725D927FADC980062DC78 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B725D827FADC980062DC78 /* Main.cpp */; };
 		41B725E227FADCA70062DC78 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B725E027FADCA70062DC78 /* Account.cpp */; };
 		41B725E627FADCD00062DC78 /* ATMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B725E427FADCD00062DC78 /* ATMachine.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41B1E12E2824FAF300CCD9BE /* Statistics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Statistics.cpp; sourceTree = "<group>"; };
+		41B1E12F2824FAF300CCD9BE /* Statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Statistics.h; sourceTree = "<group>"; };
 		41B725D527FADC980062DC78 /* HSB_ATM1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HSB_ATM1; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B725D827FADC980062DC78 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		41B725E027FADCA70062DC78 /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				41B725E127FADCA70062DC78 /* Account.h */,
 				41B725E427FADCD00062DC78 /* ATMachine.cpp */,
 				41B725E527FADCD00062DC78 /* ATMachine.h */,
+				41B1E12E2824FAF300CCD9BE /* Statistics.cpp */,
+				41B1E12F2824FAF300CCD9BE /* Statistics.h */,
 			);
 			path = HSB_ATM1;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			files = (
 				41B725E627FADCD00062DC78 /* ATMachine.cpp in Sources */,
 				41B725D927FADC980062DC78 /* Main.cpp in Sources */,
+				41B1E1302824FAF300CCD9BE /* Statistics.cpp in Sources */,
 				41B725E227FADCA70062DC78 /* Account.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

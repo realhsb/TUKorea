@@ -10,6 +10,7 @@ Account::Account(){
     strPassword = "";
 }
 
+
 inline bool Account::authenticate(int id, string passwd){
     if(this->nID == id && this->strPassword == passwd){
         return 1;
@@ -47,6 +48,11 @@ int Account::deposit(int id, string password, int money){
     }else {
         return AUTHENTIFICATION_FAIL;
     }
+}
+
+int Account::deposit(int id, int money){
+    nBalance += money;
+    return nBalance;
 }
 
 int Account::withdraw(int id, string password, int money) {
