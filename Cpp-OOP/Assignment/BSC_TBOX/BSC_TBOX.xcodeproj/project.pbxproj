@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41406BF42849F35300FB32ED /* Pay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41406BEB2849F35300FB32ED /* Pay.cpp */; };
+		41406BF52849F35300FB32ED /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41406BF02849F35300FB32ED /* Main.cpp */; };
+		41406BF62849F35300FB32ED /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41406BF12849F35300FB32ED /* Screen.cpp */; };
+		41406BF72849F35300FB32ED /* Statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41406BF22849F35300FB32ED /* Statistics.cpp */; };
+		41406BF82849F35300FB32ED /* TicketBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41406BF32849F35300FB32ED /* TicketBox.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41406BDC2849F32300FB32ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41406BDE2849F32300FB32ED /* BSC_TBOX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BSC_TBOX; sourceTree = BUILT_PRODUCTS_DIR; };
+		41406BEA2849F35300FB32ED /* Pay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pay.h; path = ../../HSB_TBOX/HSB_TBOX/Pay.h; sourceTree = "<group>"; };
+		41406BEB2849F35300FB32ED /* Pay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pay.cpp; path = ../../HSB_TBOX/HSB_TBOX/Pay.cpp; sourceTree = "<group>"; };
+		41406BEC2849F35300FB32ED /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = ../../HSB_TBOX/HSB_TBOX/Ticket.h; sourceTree = "<group>"; };
+		41406BED2849F35300FB32ED /* Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Statistics.h; path = ../../HSB_TBOX/HSB_TBOX/Statistics.h; sourceTree = "<group>"; };
+		41406BEE2849F35300FB32ED /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = ../../HSB_TBOX/HSB_TBOX/Screen.h; sourceTree = "<group>"; };
+		41406BEF2849F35300FB32ED /* TicketBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketBox.h; path = ../../HSB_TBOX/HSB_TBOX/TicketBox.h; sourceTree = "<group>"; };
+		41406BF02849F35300FB32ED /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../HSB_TBOX/HSB_TBOX/Main.cpp; sourceTree = "<group>"; };
+		41406BF12849F35300FB32ED /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Screen.cpp; path = ../../HSB_TBOX/HSB_TBOX/Screen.cpp; sourceTree = "<group>"; };
+		41406BF22849F35300FB32ED /* Statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Statistics.cpp; path = ../../HSB_TBOX/HSB_TBOX/Statistics.cpp; sourceTree = "<group>"; };
+		41406BF32849F35300FB32ED /* TicketBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TicketBox.cpp; path = ../../HSB_TBOX/HSB_TBOX/TicketBox.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41406BDB2849F32300FB32ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41406BD52849F32300FB32ED = {
+			isa = PBXGroup;
+			children = (
+				41406BE02849F32300FB32ED /* BSC_TBOX */,
+				41406BDF2849F32300FB32ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41406BDF2849F32300FB32ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41406BDE2849F32300FB32ED /* BSC_TBOX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41406BE02849F32300FB32ED /* BSC_TBOX */ = {
+			isa = PBXGroup;
+			children = (
+				41406BF02849F35300FB32ED /* Main.cpp */,
+				41406BEB2849F35300FB32ED /* Pay.cpp */,
+				41406BEA2849F35300FB32ED /* Pay.h */,
+				41406BF12849F35300FB32ED /* Screen.cpp */,
+				41406BEE2849F35300FB32ED /* Screen.h */,
+				41406BF22849F35300FB32ED /* Statistics.cpp */,
+				41406BED2849F35300FB32ED /* Statistics.h */,
+				41406BEC2849F35300FB32ED /* Ticket.h */,
+				41406BF32849F35300FB32ED /* TicketBox.cpp */,
+				41406BEF2849F35300FB32ED /* TicketBox.h */,
+			);
+			path = BSC_TBOX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41406BDD2849F32300FB32ED /* BSC_TBOX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41406BE52849F32300FB32ED /* Build configuration list for PBXNativeTarget "BSC_TBOX" */;
+			buildPhases = (
+				41406BDA2849F32300FB32ED /* Sources */,
+				41406BDB2849F32300FB32ED /* Frameworks */,
+				41406BDC2849F32300FB32ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSC_TBOX;
+			productName = BSC_TBOX;
+			productReference = 41406BDE2849F32300FB32ED /* BSC_TBOX */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41406BD62849F32300FB32ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					41406BDD2849F32300FB32ED = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 41406BD92849F32300FB32ED /* Build configuration list for PBXProject "BSC_TBOX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41406BD52849F32300FB32ED;
+			productRefGroup = 41406BDF2849F32300FB32ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41406BDD2849F32300FB32ED /* BSC_TBOX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41406BDA2849F32300FB32ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41406BF52849F35300FB32ED /* Main.cpp in Sources */,
+				41406BF42849F35300FB32ED /* Pay.cpp in Sources */,
+				41406BF72849F35300FB32ED /* Statistics.cpp in Sources */,
+				41406BF82849F35300FB32ED /* TicketBox.cpp in Sources */,
+				41406BF62849F35300FB32ED /* Screen.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41406BE32849F32300FB32ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41406BE42849F32300FB32ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41406BE62849F32300FB32ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YH4UGRTMH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41406BE72849F32300FB32ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YH4UGRTMH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41406BD92849F32300FB32ED /* Build configuration list for PBXProject "BSC_TBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41406BE32849F32300FB32ED /* Debug */,
+				41406BE42849F32300FB32ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41406BE52849F32300FB32ED /* Build configuration list for PBXNativeTarget "BSC_TBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41406BE62849F32300FB32ED /* Debug */,
+				41406BE72849F32300FB32ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41406BD62849F32300FB32ED /* Project object */;
+}
