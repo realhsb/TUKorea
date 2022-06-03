@@ -54,6 +54,7 @@
 		41406BD52849F32300FB32ED = {
 			isa = PBXGroup;
 			children = (
+				41406BFB284A32EC00FB32ED /* BSC_TBOX */,
 				41406BE02849F32300FB32ED /* BSC_TBOX */,
 				41406BDF2849F32300FB32ED /* Products */,
 			);
@@ -80,6 +81,13 @@
 				41406BEC2849F35300FB32ED /* Ticket.h */,
 				41406BF32849F35300FB32ED /* TicketBox.cpp */,
 				41406BEF2849F35300FB32ED /* TicketBox.h */,
+			);
+			path = BSC_TBOX;
+			sourceTree = "<group>";
+		};
+		41406BFB284A32EC00FB32ED /* BSC_TBOX */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = BSC_TBOX;
 			sourceTree = "<group>";
