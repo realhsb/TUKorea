@@ -12,6 +12,7 @@ public :
 
 class Weapon {
 public :
+    virtual ~Weapon();
     virtual void load (Bomb bomb) = 0;
     virtual void use() = 0;
 };
@@ -19,6 +20,7 @@ public :
 class Tank : public Weapon {
     string title;
 public :
+    virtual ~Tank();
     virtual void load(Bomb bomb) {
         title = bomb.getTitle();
         cout << "탱크 " << bomb.getTitle ()<< " 을 적재함" << endl;
@@ -31,6 +33,7 @@ public :
 class Fighter : public Weapon {
     string title;
 public :
+    virtual ~Fighter();
     virtual void load(Bomb bomb) {
         title = bomb.getTitle();
         cout << "전투기 " << bomb.getTitle ()<< " 을 적재함" << endl;
@@ -43,6 +46,7 @@ public :
 class Missile : public Weapon {
 string title;
 public :
+    virtual ~Missile();
     virtual void load(Bomb bomb) {
         title = bomb.getTitle();
         cout << "미사일 " << bomb.getTitle ()<< " 을 적재함" << endl;
@@ -68,6 +72,10 @@ public :
         cout << endl;
         switch(num) {
             case 1 : {
+                // Tank tk, *pTk;
+                // pTk = &tk;
+
+
                 Tank* pTk;
                 pTk = new Tank();
                 return pTk;
