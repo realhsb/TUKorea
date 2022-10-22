@@ -1,0 +1,33 @@
+div#responsive_footer {
+	background-position: 80% 100%; margin: 0px auto; padding: 5px; line-height: 9px; clear: both; font-family: Arial, Helvetica, sans-serif; font-size: 10px; max-width: 980px; background-image: url("/responsive/footer/graphics/footer_seal.png"); background-repeat: no-repeat; background-color: rgb(18, 76, 143);
+}
+div#responsive_footer ul {
+	margin: 0px; padding: 0px; display: inline;
+}
+div#responsive_footer ul li {
+	margin: 0px; padding: 0px; display: inline;
+}
+div#responsive_footer a {
+	padding: 0px 5px; color: rgb(255, 255, 255); text-decoration: none; border-left-color: white; border-left-width: 1px; border-left-style: solid;
+}
+div#responsive_footer ul li:first-child a {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+div#responsive_footer a:hover {
+	color: rgb(173, 148, 66);
+}
+div#responsive_footer hr {
+	border-width: 1px 0px 0px; border-style: solid; border-color: white; margin: 5px; padding: 0px; width: 400px; height: 0px; text-align: left; line-height: 0; overflow: hidden;
+}
+div#responsive_footer div#responsive_footer-small {
+	display: none;
+}
+@media all and (max-width:670px)
+{
+div#responsive_footer div#responsive_footer-small {
+	display: block;
+}
+div#responsive_footer div#responsive_footer-full {
+	display: none;
+}
+}

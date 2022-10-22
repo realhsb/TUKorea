@@ -1,0 +1,264 @@
+div#responsive_header {
+	background-position: 80% 0px; background-image: url("/responsive/header/graphics/header_seal.png"); background-repeat: no-repeat; background-color: rgb(18, 76, 143);
+}
+header {
+	background-position: 80% 0px; background-image: url("/responsive/header/graphics/header_seal.png"); background-repeat: no-repeat; background-color: rgb(18, 76, 143);
+}
+a#after_header {
+	overflow: hidden; display: block;
+}
+a#responsive_header-fdic_logo {
+	overflow: hidden; display: block;
+}
+a.responsive_header-skip_header {
+	overflow: hidden; display: block;
+}
+a#after_header {
+	width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+a.responsive_header-skip_header {
+	width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search label {
+	width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+div#responsive_header a:hover {
+	outline: 0px;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search a:active {
+	outline: 0px;
+}
+#leftheader {
+	float: left;
+}
+div.clear {
+	clear: both;
+}
+#responsive_header h2 {
+	margin: 0px; color: rgb(255, 255, 255); clear: none; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; text-rendering: auto;
+}
+div#responsive_header h1 {
+	margin: 0px; color: rgb(255, 255, 255); clear: none; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; text-rendering: auto;
+}
+a:focus {
+	border: 1px dotted rgb(255, 255, 255); border-image: none;
+}
+#responsive_header-links a:focus {
+	border: currentColor; border-image: none;
+}
+header {
+	margin: 0px auto 2px; width: 990px;
+}
+a#responsive_header-fdic_logo {
+	margin: 12px 12px 0px; width: 135px; height: 54px; float: left; background-repeat: no-repeat;
+}
+div#responsive_header {
+	margin: 0px auto; width: 990px;
+}
+div#responsive_header h1 {
+	padding: 12px 0px 0px; border: currentColor; border-image: none; font-size: 18px; font-weight: 700; text-shadow: 1px 1px #0b295b;
+}
+#responsive_header h2 {
+	padding: 0px; font-size: 14px; font-weight: 400; white-space: nowrap; text-shadow: 0.5px 0.5px #0b295b;
+}
+div#responsive_header div#responsive_header-right_side {
+	text-align: right; margin-bottom: 8px; float: right;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links {
+	list-style-type: none; list-style-image: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li {
+	background: 0px 0px; margin: 5px 10px 0px 0px; padding: 0px; width: 24px; height: 24px; text-align: right; float: left; display: block;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search {
+	padding-top: 2.5px; clear: both;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search a {
+	color: rgb(238, 238, 238); padding-right: 12.5px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 13px; text-decoration: none; text-shadow: 1px 1px #0b295b; text-rendering: auto;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search a:focus {
+	color: rgb(173, 148, 66);
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search a:hover {
+	color: rgb(173, 148, 66);
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search input.submit {
+	margin-right: 8px; float: none;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search input.submit:focus {
+	border: 1px dotted rgb(173, 148, 66); border-image: none;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search #search {
+	width: 400px; height: 26px; float: right;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search form {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+div.form {
+	float: right;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search div.form {
+	background: url("/responsive/header/graphics/search_box-background.png") no-repeat; margin: 0px 4px 0px 0px; width: 196px; height: 21px; text-align: left;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search input.field {
+	background: none; margin: 0px 0px 0px 2px; padding: 3px 0px 0px 10px; border: currentColor; border-image: none; width: 159px; color: rgb(38, 48, 79); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 11px; float: left;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search input.submit {
+	background: url("/responsive/header/graphics/search_box-magnifying_glass.png") no-repeat; margin: 4px 0px 0px 3px; padding: 0px; border: currentColor; border-image: none; width: 14px; height: 13px; font-family: Arial,Tahoma,sans-serif; font-size: 12px; cursor: pointer;
+}
+.nav_container {
+	margin: 0px auto; border-radius: 0px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; position: relative; z-index: 9999; min-height: 35px; background-color: rgb(77, 120, 165);
+}
+.navbar {
+	margin: 0px auto; border-radius: 0px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; position: relative; z-index: 9999; min-height: 35px; background-color: rgb(77, 120, 165);
+}
+.nav_container > .navbar-inverse {
+	border: currentColor; border-image: none; background-color: rgb(77, 120, 165);
+}
+.container-fluid {
+	padding-right: 0px; padding-left: 0px; margin-right: auto; margin-left: auto;
+}
+.navbar-inverse .navbar-toggle:focus {
+	background: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: rgb(56, 91, 131);
+}
+.navbar-brand {
+	display: none;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: rgb(56, 91, 131);
+}
+.navbar-collapse {
+	border: currentColor; border-image: none; padding-right: 0px; padding-left: 0px; box-shadow: inset 0px 1px 0px rgba(255,255,255,0.1);
+}
+.nav > li {
+	margin: 0px; padding: 10px 7px; border: currentColor; border-image: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+	padding: 0px; outline: 0px; color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; display: inline;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > .open > a {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > li:hover {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > li > a:focus {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: rgb(56, 91, 131);
+}
+.navbar-inverse .navbar-nav > .active > a {
+	background: 0px 0px;
+}
+.videos {
+	z-index: 1;
+}
+.move-left {
+	left: -106px;
+}
+@media all and (max-width:1003px)
+{
+.container-fluid {
+	margin-right: auto; margin-left: auto;
+}
+button.navbar-toggle {
+	padding: 4.5px; border-radius: 4px; margin-right: 30px;
+}
+.navbar-inverse .navbar-brand {
+	color: rgb(255, 255, 255); text-decoration: none; display: block;
+}
+.navbar-brand {
+	padding: 10px 10px 10px 25px; line-height: 20px; font-size: 16px; float: left; max-height: 30px;
+}
+.navbar-header {
+	min-width: 100%;
+}
+div#responsive_header {
+	width: auto; max-width: 1003px;
+}
+header {
+	width: auto; max-width: 1003px;
+}
+#leftheader h1 {
+	float: right;
+}
+#leftheader h2 {
+	display: none;
+}
+}
+@media all and (max-width:599px)
+{
+#leftheader h1 {
+	display: none;
+}
+}
+.grow {
+	transition:0.5s ease-out; -webkit-transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease-out;
+}
+.grow:hover {
+	transform: scale(1.3); -webkit-transform: scale(1.3); -o-transform: scale(1.3); -moz-transform: scale(1.3);
+}
+@media all and (max-width:499px)
+{
+#responsive_header-search a {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search a.search {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-facebook {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-fdicchannel {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-linkedin {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-rss {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-subscribe {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-twitter {
+	display: none;
+}
+div#responsive_header div#responsive_header-right_side ul#responsive_header-links li#responsive_header-instagram {
+	display: none;
+}
+a#responsive_header-fdic_logo {
+	margin: 4px; width: 92px; height: 37px;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search {
+	margin: 0px; padding: 0px;
+}
+div#responsive_header div#responsive_header-right_side {
+	width: 160px;
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search div.form {
+	width: 152px; margin-top: 15px; background-image: url("/responsive/header/graphics/search_box-background-small.png");
+}
+div#responsive_header div#responsive_header-right_side div#responsive_header-search input.field {
+	width: 114px;
+}
+}

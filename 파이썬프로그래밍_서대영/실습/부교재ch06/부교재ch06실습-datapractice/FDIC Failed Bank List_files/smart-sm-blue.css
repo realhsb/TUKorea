@@ -1,0 +1,396 @@
+#main-menu {
+	width: 988px; display: inline-block;
+}
+background-image {
+	image-rendering: pixelated;
+}
+.sm-blue {
+	background: none;
+}
+.sm-blue a {
+	padding: 10.5px 10px 10.5px 10.5px; color: hsla(0, 0%, 100%, 1); line-height: 14px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; text-decoration: none;
+}
+.sm-blue a:hover {
+	background: rgb(56, 91, 131); color: rgb(255, 255, 255);
+}
+.sm-blue a:focus {
+	background: rgb(56, 91, 131); color: rgb(255, 255, 255);
+}
+.sm-blue a:active {
+	background: rgb(56, 91, 131); color: rgb(255, 255, 255);
+}
+.sm-blue .scroll-up {
+	height: 20px; overflow: hidden; display: none; visibility: hidden; position: absolute; background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue .scroll-down {
+	height: 20px; overflow: hidden; display: none; visibility: hidden; position: absolute; background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue .scroll-up-arrow {
+	border-width: 8px; border-style: dashed dashed solid; border-color: transparent transparent rgb(43, 130, 172); left: 50%; top: -2px; width: 0px; height: 0px; overflow: hidden; margin-left: -8px; position: absolute;
+}
+.sm-blue .scroll-down-arrow {
+	border-width: 8px; border-style: dashed dashed solid; border-color: transparent transparent rgb(43, 130, 172); left: 50%; top: -2px; width: 0px; height: 0px; overflow: hidden; margin-left: -8px; position: absolute;
+}
+.sm-blue .scroll-down-arrow {
+	border-style: solid dashed dashed; border-color: rgb(43, 130, 172) transparent transparent; top: 6px;
+}
+.sm-blue > li:first-child > a {
+	border-radius: 0px;
+}
+.sm-blue > li:first-child > :not(ul) a {
+	border-radius: 0px;
+}
+.sm-blue ul li.submenuHeader {
+	padding: 0px 0px 2px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; margin-top: -16px;
+}
+.sm-blue ul li.submenuList {
+	padding: 0px; margin-top: -12px;
+}
+.sm-blue ul li h3.submenuHeader {
+	padding: 0px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; margin-top: 12px; margin-bottom: 0px;
+}
+.sm-blue ul li h3.lastSubmenuHeader {
+	padding: 0px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; margin-top: 12px; margin-bottom: 0px;
+}
+@media all and (min-width:1003px)
+{
+#main-menu {
+	display: inline-block; max-width: 100%; background-color: hsla(211, 36%, 47%, 1);
+}
+.sm > li {
+	margin-bottom: -3px;
+}
+.sm-blue a:focus {
+	border: currentColor; border-image: none;
+}
+.sm-blue a {
+	padding: 10.5px 10px 10.5px 10.5px; color: hsla(0, 0%, 100%, 1); line-height: 14px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; text-decoration: none;
+}
+.sm-blue a .sub-arrow {
+	background: rgba(0, 0, 0, 0.1); font: lighter 16px/34px monospace !important; border-radius: 0em; left: auto; top: 50%; width: 32px; height: 32px; text-align: center; right: 4px; overflow: hidden; margin-top: -17px; position: absolute; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: none;
+}
+.sm-blue a .sub-arrow::before {
+	content: "+";
+}
+.sm-blue a.highlighted .sub-arrow::before {
+	content: "-";
+}
+p.singleFlyout {
+	margin: 0px; padding: 0px;
+}
+li.submenuList ul li a strong {
+	line-height: 1em; font-size: 13px; font-weight: bold; text-rendering: geometricPrecision;
+}
+.sm-blue ul li:hover .has-submenu {
+	color: hsla(213, 27%, 24%, 1); box-shadow: 0.4px 0.4px 0.5px rgba(0,0,0,0.4);
+}
+.sm-blue ul li:focus .has-submenu {
+	color: hsla(213, 27%, 24%, 1); box-shadow: 0.4px 0.4px 0.5px rgba(0,0,0,0.4);
+}
+.sm-blue ul a {
+	color: rgb(255, 255, 255); font-size: 12px; text-shadow: none;
+}
+.sm-blue ul a:hover {
+	color: rgb(255, 255, 255); font-size: 12px; text-shadow: none;
+}
+.sm-blue ul a:focus {
+	color: rgb(255, 255, 255); font-size: 12px; text-shadow: none;
+}
+.sm-blue ul a:active {
+	color: rgb(255, 255, 255); font-size: 12px; text-shadow: none;
+}
+.sm-blue li {
+	float: left;
+}
+.sm-blue ul li {
+	float: none;
+}
+.sm-blue.sm-rtl ul li {
+	float: none;
+}
+.sm-blue.sm-vertical li {
+	float: none;
+}
+.sm-blue ul li.topmenuItem {
+	padding: 0px; margin-top: 0px;
+}
+.sm-blue ul li.submenuList {
+	padding: 0px; margin-top: -12px;
+}
+.sm-blue ul.singleItems a {
+	padding: 9px 40px 9px 10px; border: 0px currentColor !important; border-image: none !important;
+}
+.sm-blue ul li.last_item {
+	
+}
+.sm-blue a {
+	white-space: nowrap;
+}
+.sm-blue ul a {
+	white-space: normal;
+}
+.sm-blue.sm-vertical a {
+	white-space: normal;
+}
+.sm-blue .sm-nowrap > li > a {
+	white-space: nowrap;
+}
+.sm-blue .sm-nowrap > li > :not(ul) a {
+	white-space: nowrap;
+}
+.sm-blue li h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-weight: normal; text-shadow: 0.5px 0.5px #0b295b; text-rendering: geometricPrecision;
+}
+.sm-blue li:hover {
+	background: hsla(212, 40%, 37%, 1); z-index: 203;
+}
+.sm-blue li:focus {
+	background: hsla(212, 40%, 37%, 1); z-index: 203;
+}
+.sm-blue li:active {
+	background: hsla(212, 40%, 37%, 1); z-index: 203;
+}
+.sm-blue li h2 .sub-arrow {
+	background: none; border-width: 4px; border-style: solid dashed dashed; border-color: rgb(255, 255, 255) transparent transparent; border-radius: 0px; top: 47%; width: 0px; height: 0px; margin-left: -5px;
+}
+.sm-blue li h2 .sub-arrow::before {
+	display: none;
+}
+.sm-blue li.navbarMenuItem1 {
+	width: 60.5px;
+}
+.sm-blue li.navbarMenuItem2 {
+	width: 126.5px;
+}
+.sm-blue li.navbarMenuItem3 {
+	width: 142.5px;
+}
+.sm-blue li.navbarMenuItem4 {
+	width: 118.5px;
+}
+.sm-blue li.navbarMenuItem5 {
+	width: 181.5px;
+}
+.sm-blue li.navbarMenuItem6 {
+	width: 159.5px;
+}
+.sm-blue li.navbarMenuItem7 {
+	width: 108.5px;
+}
+.sm-blue li.navbarMenuItem8 {
+	width: 89.5px;
+}
+.sm-blue a .sub-arrow {
+	background: none; border-width: 4px; border-style: solid dashed dashed; border-color: rgb(255, 255, 255) transparent transparent; border-radius: 0px; top: auto; width: 0px; height: 0px; bottom: 2px; margin-top: 0px; margin-left: -5px;
+}
+.sm-blue a .sub-arrow::before {
+	display: none;
+}
+.sm-blue ul a .sub-arrow {
+	border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(255, 255, 255); left: auto; top: 50%; right: 10px; bottom: auto; margin-top: -5px; margin-left: 0px;
+}
+.sm-blue ul ul a .sub-arrow {
+	border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(0, 0, 0); left: auto; top: 50%; right: 10px; bottom: auto; margin-top: -5px; margin-left: 0px;
+}
+.sm-blue > li:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.sm-blue ul {
+	margin: 0px; padding: 0px; position: absolute; box-shadow: 7px 6px 13px -4px rgba(56,91,131,0.48); background-color: hsla(212, 40%, 37%, 1); -webkit-box-shadow: 7px 6px 13px -4px rgba(56, 91, 131, 0.48); -moz-box-shadow: 7px 6px 13px -4px rgba(56, 91, 131, 0.48);
+}
+.sm-blue ul a:hover .sub-arrow {
+	border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(44, 59, 77); left: auto; top: 50%; right: 10px; bottom: auto; margin-top: -5px; margin-left: 0px;
+}
+.sm-blue ul a:focus .sub-arrow {
+	border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(44, 59, 77); left: auto; top: 50%; right: 10px; bottom: auto; margin-top: -5px; margin-left: 0px;
+}
+.sm-blue ul a {
+	background: none; padding: 9px 40px 9px 10px; border: 0px currentColor !important; border-image: none !important; color: rgb(238, 238, 238);
+}
+.sm-blue ul a:hover {
+	color: hsla(213, 27%, 24%, 1); background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue ul a:focus {
+	color: hsla(213, 27%, 24%, 1); background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue ul li {
+	border: 0px currentColor; border-image: none;
+}
+.sm-blue ul ul ul li {
+	background-color: rgb(232, 237, 243);
+}
+.sm-blue ul li:hover {
+	color: hsla(213, 27%, 24%, 1); box-shadow: 0.4px 0.4px 0.5px rgba(0,0,0,0.4); background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue ul li:focus {
+	color: hsla(213, 27%, 24%, 1); box-shadow: 0.4px 0.4px 0.5px rgba(0,0,0,0.4); background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue ul li h3.lastSubmenuHeader:hover {
+	box-shadow: 0.4px 0.4px 0.5px rgba(0,0,0,0.4);
+}
+.sm-blue ul li h3.lastSubmenuHeader:focus {
+	box-shadow: 0.4px 0.4px 0.5px rgba(0,0,0,0.4);
+}
+.sm-blue ul ul {
+	box-shadow: 15px 9px 29px -12px rgba(44,59,77,0.39); background-color: rgba(213, 230, 246, 1); -webkit-box-shadow: 15px 9px 29px -12px rgba(44, 59, 77, 0.39); -moz-box-shadow: 15px 9px 29px -12px rgba(44, 59, 77, 0.39);
+}
+.sm-blue ul ul a {
+	color: hsla(213, 27%, 24%, 1);
+}
+.sm-blue ul ul a:hover {
+	color: hsla(213, 27%, 24%, 1); background-color: rgba(188, 215, 241, 1);
+}
+.sm-blue ul ul a:focus {
+	color: hsla(213, 27%, 24%, 1); background-color: rgba(188, 215, 241, 1);
+}
+.sm-blue .scroll-up {
+	height: 20px; overflow: hidden; display: none; visibility: hidden; position: absolute; background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue .scroll-down {
+	height: 20px; overflow: hidden; display: none; visibility: hidden; position: absolute; background-color: hsla(209, 65%, 90%, 1);
+}
+.sm-blue .scroll-up-arrow {
+	border-width: 8.5px; border-style: dashed dashed solid; border-color: transparent transparent rgb(56, 91, 131); left: 50%; top: -2px; width: 0px; height: 0px; overflow: hidden; margin-left: -8px; position: absolute;
+}
+.sm-blue .scroll-down-arrow {
+	border-width: 8.5px; border-style: dashed dashed solid; border-color: transparent transparent rgb(56, 91, 131); left: 50%; top: -2px; width: 0px; height: 0px; overflow: hidden; margin-left: -8px; position: absolute;
+}
+.sm-blue .scroll-down-arrow {
+	border-style: solid dashed dashed; border-color: rgb(56, 91, 131) transparent transparent; top: 6px;
+}
+}
+@media all and (max-width:1002px)
+{
+#main-menu {
+	width: 100%; display: inline-block;
+}
+div.collapse .navbar-collapse {
+	min-width: auto; max-width: 1002px;
+}
+.sm-blue {
+	background-color: hsla(211, 36%, 47%, 1);
+}
+.sm-blue a:focus {
+	border: currentColor; border-image: none;
+}
+.sm-blue a:hover {
+	border: currentColor; border-image: none;
+}
+.sm-blue li {
+	background-color: hsla(211, 36%, 47%, 1);
+}
+.sm-blue li h2 a {
+	padding-left: 30px;
+}
+.sm-blue li:hover {
+	border: currentColor; border-image: none; background-color: hsla(212, 40%, 37%, 1);
+}
+.sm-blue li:focus {
+	border: currentColor; border-image: none; background-color: hsla(212, 40%, 37%, 1);
+}
+.sm-blue li:active {
+	border: currentColor; border-image: none; background-color: hsla(212, 40%, 37%, 1);
+}
+.sm-blue ul {
+	background-color: hsla(211, 36%, 47%, 1);
+}
+.sm-blue ul li {
+	padding-left: 20px; background-color: hsla(212, 40%, 37%, 1);
+}
+.sm-blue ul li h3.submenuHeader {
+	padding: 2px 0px 2px 20px;
+}
+.sm-blue ul li h3.lastSubmenuHeader {
+	padding: 2px 0px 2px 20px;
+}
+.sm-blue a .sub-arrow {
+	background: rgba(0, 0, 0, 0.1); font: lighter 16px/34px monospace !important; border-radius: 0em; left: auto; top: 50%; width: 32px; height: 32px; text-align: center; right: 4px; overflow: hidden; margin-top: -17px; margin-right: 20px; position: absolute; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: none;
+}
+.sm-blue ul li a .sub-arrow {
+	background: rgba(0, 0, 0, 0.1); font: lighter 16px/34px monospace !important; border-radius: 0em; left: auto; top: 50%; width: 32px; height: 32px; text-align: center; right: 4px; overflow: hidden; margin-top: -17px; margin-right: 53.5px; position: absolute; font-size-adjust: none !important; font-stretch: normal !important; text-shadow: none;
+}
+.sm-blue a .sub-arrow::before {
+	content: "+";
+}
+.sm-blue a.highlighted .sub-arrow::before {
+	content: "-";
+}
+.sm-blue ul li a .sub-arrow::before {
+	content: "+";
+}
+.sm-blue ul li a.highlighted .sub-arrow::before {
+	content: "-";
+}
+.sm-blue ul li:hover {
+	background-color: hsla(212, 39%, 18%, 1);
+}
+.sm-blue ul li:focus {
+	background-color: hsla(212, 39%, 18%, 1);
+}
+.sm-blue ul li:active {
+	background-color: hsla(212, 39%, 18%, 1);
+}
+.sm-blue ul li a {
+	padding-left: 30px;
+}
+.sm-blue ul li a:hover {
+	border: currentColor; border-image: none; background-color: hsla(212, 39%, 18%, 1);
+}
+.sm-blue ul li a:focus {
+	border: currentColor; border-image: none; background-color: hsla(212, 39%, 18%, 1);
+}
+.sm-blue ul li a:active {
+	border: currentColor; border-image: none; background-color: hsla(212, 39%, 18%, 1);
+}
+.sm-blue ul ul li {
+	padding: 2px 0px 2px 28px; background-color: rgba(213, 230, 246, 1);
+}
+.sm-blue ul ul li:hover {
+	border: currentColor; border-image: none; color: rgb(44, 59, 77); background-color: rgba(188, 215, 241, 1);
+}
+.sm-blue ul ul li:focus {
+	border: currentColor; border-image: none; color: rgb(44, 59, 77); background-color: rgba(188, 215, 241, 1);
+}
+.sm-blue ul ul a {
+	color: hsla(213, 27%, 24%, 1); padding-left: 45px;
+}
+.sm-blue ul ul a:hover {
+	border: currentColor; border-image: none; color: rgb(44, 59, 77); background-color: rgba(188, 215, 241, 1);
+}
+.sm-blue ul ul a:focus {
+	border: currentColor; border-image: none; color: rgb(44, 59, 77); background-color: rgba(188, 215, 241, 1);
+}
+}
+@media all and (max-width:499px)
+{
+.sm-blue ul a {
+	font-size: 11.5px;
+}
+.sm-blue ul ul a {
+	font-size: 11px;
+}
+}
+@media all and (max-width:399px)
+{
+.sm-blue ul a {
+	padding-right: 100px; white-space: normal;
+}
+.sm-blue ul ul a {
+	padding-right: 20px; white-space: normal;
+}
+}
+@media all and (max-width:299px)
+{
+.sm-blue ul li a .sub-arrow {
+	display: none;
+}
+.sm-blue a .sub-arrow {
+	display: none;
+}
+.sm-blue ul li {
+	display: none;
+}
+.sm-blue ul ul li {
+	display: none;
+}
+}

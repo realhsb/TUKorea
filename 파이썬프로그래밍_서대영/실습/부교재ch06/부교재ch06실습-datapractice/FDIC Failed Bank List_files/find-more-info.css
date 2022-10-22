@@ -1,0 +1,15 @@
+div#find_more_info {
+	padding: 3px 10px 10px; margin-bottom: 5px; background-color: rgb(97, 130, 164);
+}
+div#find_more_info h2 {
+	margin: 0px 0px 10px; padding: 4px 5px; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid;
+}
+div#find_more_info div {
+	background: url("/images/phase7/select220.jpg") no-repeat right rgb(255, 255, 255); margin: 0px 0px 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 25px; overflow: hidden;
+}
+div#find_more_info div label {
+	width: 1px; height: 1px; overflow: hidden; position: absolute;
+}
+div#find_more_info div select {
+	background: none; padding: 0px; border-radius: 0px; border: 0px currentColor; border-image: none; width: 248px; height: 25px; line-height: 20px; font-size: 14px; -webkit-appearance: none;
+}

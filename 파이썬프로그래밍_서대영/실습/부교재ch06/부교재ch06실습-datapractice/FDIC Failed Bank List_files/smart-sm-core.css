@@ -1,0 +1,66 @@
+.sm {
+	position: relative; z-index: 9999; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.sm {
+	list-style: none; margin: 0px; padding: 0px; text-align: left; line-height: normal; display: block; direction: ltr;
+}
+.sm ul {
+	list-style: none; margin: 0px; padding: 0px; text-align: left; line-height: normal; display: block; direction: ltr;
+}
+.sm li {
+	list-style: none; margin: 0px; padding: 0px; text-align: left; line-height: normal; display: block; direction: ltr;
+}
+.sm-rtl {
+	text-align: right; direction: rtl;
+}
+.sm-rtl ul {
+	text-align: right; direction: rtl;
+}
+.sm-rtl li {
+	text-align: right; direction: rtl;
+}
+.sm > li > h1 {
+	margin: 0px; padding: 0px;
+}
+.sm > li > h2 {
+	margin: 0px; padding: 0px;
+}
+.sm > li > h3 {
+	margin: 0px; padding: 0px;
+}
+.sm > li > h4 {
+	margin: 0px; padding: 0px;
+}
+.sm > li > h5 {
+	margin: 0px; padding: 0px;
+}
+.sm > li > h6 {
+	margin: 0px; padding: 0px;
+}
+.sm ul {
+	display: none;
+}
+.sm li {
+	position: relative;
+}
+.sm a {
+	position: relative;
+}
+.sm a {
+	display: block;
+}
+.sm a.disabled {
+	cursor: default;
+}
+.sm::after {
+	font: 0px/0 serif; height: 0px; overflow: hidden; clear: both; display: block; content: ""; font-size-adjust: none; font-stretch: normal;
+}
+.sm * {
+	box-sizing: inherit;
+}
+.sm *::before {
+	box-sizing: inherit;
+}
+.sm *::after {
+	box-sizing: inherit;
+}
